@@ -1,0 +1,4 @@
+RewriteEngine On
+#RewriteRule \/uploads\/report\/images\/(.+)$ http://storage.googleapis.com/images-test/$1 [R=301,L]
+#RewriteRule ^(.*)$ http://storage.googleapis.com/images-test/$1 [R=301,L]
+RewriteRule ^uploads\/report\/images\/(.*)$ http://storage.googleapis.com/images-test/$1 [R=301,L]
